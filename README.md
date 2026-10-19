@@ -2,50 +2,54 @@
 
 A Flutter-based travel planning application that helps users organize trips, manage itineraries, track expenses, and monitor travel budgets in one place.
 
-## App Screenshots
+## 📱 App Screenshots
+
+<div align="center">
 
 <table>
   <tr>
     <td align="center" width="50%">
-      <strong>Home Dashboard</strong><br>
-      <img src="screenshots/home.jpg" width="240" alt="TripC Home Dashboard">
+      <strong>Home Dashboard</strong><br><br>
+      <img src="screenshots/home.jpg" width="220" alt="TripC Home Dashboard">
     </td>
     <td align="center" width="50%">
-      <strong>Trip Management</strong><br>
-      <img src="screenshots/trips.jpg" width="240" alt="Trip Management">
+      <strong>Trip Management</strong><br><br>
+      <img src="screenshots/trips.jpg" width="220" alt="Trip Management">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <strong>Itinerary Planning</strong><br>
-      <img src="screenshots/itinerary.jpg" width="240" alt="Itinerary Planning">
+      <strong>Itinerary Planning</strong><br><br>
+      <img src="screenshots/itinerary.jpg" width="220" alt="Itinerary Planning">
     </td>
     <td align="center">
-      <strong>Expense Management</strong><br>
-      <img src="screenshots/expenses.jpg" width="240" alt="Expense Manager">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>Analytics Dashboard</strong><br>
-      <img src="screenshots/analytics.jpg" width="240" alt="Analytics Dashboard">
-    </td>
-    <td align="center">
-      <strong>Expense Breakdown</strong><br>
-      <img src="screenshots/analytics-breakdown.jpg" width="240" alt="Expense Analytics Breakdown">
+      <strong>Expense Management</strong><br><br>
+      <img src="screenshots/expenses.jpg" width="220" alt="Expense Manager">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <strong>Planned vs Actual</strong><br>
-      <img src="screenshots/planned-vs-actual.jpg" width="240" alt="Planned versus Actual Expenses">
+      <strong>Analytics Dashboard</strong><br><br>
+      <img src="screenshots/analytics.jpg" width="220" alt="Analytics Dashboard">
     </td>
     <td align="center">
-      <strong>Places and Explore</strong><br>
-      <img src="screenshots/places.jpg" width="240" alt="Places and Explore">
+      <strong>Expense Breakdown</strong><br><br>
+      <img src="screenshots/analytics-breakdown.jpg" width="220" alt="Expense Analytics Breakdown">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Planned vs Actual</strong><br><br>
+      <img src="screenshots/planned-vs-actual.jpg" width="220" alt="Planned vs Actual Expenses">
+    </td>
+    <td align="center">
+      <strong>Places and Explore</strong><br><br>
+      <img src="screenshots/places.jpg" width="220" alt="Places and Explore">
     </td>
   </tr>
 </table>
+
+</div>
 
 ## Features
 
