@@ -21,9 +21,18 @@ organizing itineraries, tracking expenses, and monitoring budgets.
 
 **⚜ Crafted for smarter journeys ⚜**
 
+## 📲 Download TripC
+
+**[⬇️ Download TripC for Android](https://github.com/afif729/TripC-Smart-Travel-Planner/releases/latest)**
+
+Download the APK from the latest release, install it on your
+Android device, and start planning your trips.
+
 </div>
 
 ---
+
+
 
 ## 📱 App Screenshots
 
