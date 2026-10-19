@@ -1,6 +1,29 @@
-﻿# TripC — Smart Travel Planner & Expense Manager
+﻿<div align="center">
 
-A Flutter-based travel planning application that helps users organize trips, manage itineraries, track expenses, and monitor travel budgets in one place.
+# ♛ TripC ♛
+
+### SMART TRAVEL PLANNER & EXPENSE MANAGER
+
+_Plan Your Journey. Master Your Budget. Travel Smarter._
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**✦ EXPLORE · PLAN · TRACK · ANALYZE ✦**
+
+A Flutter-powered travel companion for managing trips,
+organizing itineraries, tracking expenses, and monitoring budgets.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[![Flutter](https://img.shields.io/badge/Flutter-Framework-075E54?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-Language-C8A45D?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+[![Material 3](https://img.shields.io/badge/Material_3-Design-073D32?style=for-the-badge)](https://m3.material.io/)
+
+**⚜ Crafted for smarter journeys ⚜**
+
+</div>
+
+---
 
 ## 📱 App Screenshots
 
