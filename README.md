@@ -1,27 +1,59 @@
 ﻿# TripC — Smart Travel Planner & Expense Manager
 
-TripC is a Flutter-based mobile application designed to help users organize trips, plan activities, manage travel expenses, and monitor budgets in one place.
+A Flutter-based travel planning application that helps users organize trips, manage itineraries, track expenses, and monitor travel budgets in one place.
+
+## App Screenshots
+
+### Home Dashboard
+
+![TripC Home Dashboard](screenshots/home.jpg)
+
+### Trip Management
+
+![Trip List](screenshots/trips.jpg)
+
+### Itinerary Planning
+
+![Trip Itinerary](screenshots/itinerary.jpg)
+
+### Expense Management
+
+![Expense Manager](screenshots/expenses.jpg)
+
+### Analytics Dashboard
+
+![Analytics Dashboard](screenshots/analytics.jpg)
+
+![Expense Analytics Breakdown](screenshots/analytics-breakdown.jpg)
+
+### Budget Comparison
+
+![Planned vs Actual Expenses](screenshots/planned-vs-actual.jpg)
+
+### Places and Exploration
+
+![Places and Explore](screenshots/places.jpg)
 
 ## Features
 
-- **Trip Management:** Create and manage multiple trips with destination, dates, and budget details.
-- **Place Planning:** Organize places to visit and review their priorities and estimated costs.
-- **Itinerary Management:** Schedule activities and organize travel plans by date and time.
-- **Expense Tracking:** Record travel expenses and categorize spending.
-- **Budget Monitoring:** Review total expenditure, budget usage, and remaining funds.
-- **Planned vs. Actual Analysis:** Compare estimated itinerary costs with recorded expenses.
-- **Financial Analytics:** Review spending summaries and category-wise expenses.
-- **Currency Options:** Choose from the currencies supported by the application.
-- **Local Data Persistence:** Save trip data locally using SharedPreferences and JSON serialization.
-- **User Interface:** Material Design 3-based Flutter interface.
+- **Trip Management:** Create, view, update, and manage trips.
+- **Itinerary Planning:** Organize planned activities and travel schedules.
+- **Expense Tracking:** Record trip expenses and review spending by category.
+- **Budget Monitoring:** Compare spending against the planned trip budget.
+- **Planned vs Actual Analysis:** Compare estimated itinerary costs with actual expenses.
+- **Analytics Dashboard:** Review expense breakdowns and trip spending insights.
+- **Currency Selection:** View monetary values in supported currencies.
+- **Local Data Persistence:** Save trip data on the device using SharedPreferences.
+- **Smart Insights:** Display useful spending and itinerary information based on trip data.
 
 ## Technology Stack
 
-- **Frontend:** Flutter and Dart
+- **Framework:** Flutter
+- **Programming Language:** Dart
 - **UI:** Material Design 3
 - **Local Storage:** SharedPreferences
-- **Data Serialization:** JSON
-- **Development Tools:** Flutter SDK, Android Studio or Visual Studio Code
+- **Data Format:** JSON
+- **Development Tools:** Android Studio / VS Code, Git, GitHub
 
 ## Getting Started
 
@@ -29,51 +61,89 @@ TripC is a Flutter-based mobile application designed to help users organize trip
 
 Install the Flutter SDK and configure an appropriate development environment. For Android development, install Android Studio and the Android SDK.
 
-Flutter installation guide: https://docs.flutter.dev/get-started/install
-
-### Run the Application
-
-1. Clone this repository.
-2. Open a terminal in the project directory.
-3. Install the project dependencies.
-4. Run the application on a connected device or emulator.
+Verify your Flutter setup:
 
 ```bash
-git clone https://github.com/afif729/TripC-Smart-Travel-Planner.git
-cd TripC-Smart-Travel-Planner
-flutter pub get
-flutter run
+flutter doctor
 ```
 
-If the repository has a different name, replace the clone URL and directory name with the actual repository details.
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/afif729/TripC-Smart-Travel-Planner.git
+   ```
+
+2. Open the project directory:
+
+   ```bash
+   cd TripC-Smart-Travel-Planner
+   ```
+
+3. Download dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Run static analysis:
+
+   ```bash
+   flutter analyze
+   ```
+
+5. Launch the application on a connected device or emulator:
+
+   ```bash
+   flutter run
+   ```
 
 ## Project Structure
 
 ```text
-lib/          Application source code
-test/         Automated tests
-android/      Android platform configuration
-ios/          iOS platform configuration
-web/          Web platform configuration
-windows/      Windows platform configuration
-linux/        Linux platform configuration
-macos/        macOS platform configuration
+lib/
+  main.dart
+  notification_service.dart
+
+screenshots/
+  home.jpg
+  trips.jpg
+  itinerary.jpg
+  expenses.jpg
+  analytics.jpg
+  analytics-breakdown.jpg
+  planned-vs-actual.jpg
+  places.jpg
+
+android/
+ios/
+web/
+windows/
+macos/
+linux/
+test/
 ```
 
-## Storage and Limitations
+## Data Storage and Limitations
 
-The current implementation stores trip information locally on the device. Cloud synchronization and collaborative trip editing are not currently provided. Analytical insights are based on programmed calculations and rules rather than a trained machine-learning model.
+TripC currently uses local device storage through SharedPreferences. Data is not automatically synchronized between devices or users. Uninstalling the application or clearing its data may result in the loss of locally stored trip information.
 
-Platform-specific testing may be required before deploying to devices beyond the development environment.
+Currency selection changes the displayed currency; it should not be interpreted as live foreign-exchange conversion unless an exchange-rate service is implemented.
 
-## Future Improvements
+## Future Enhancements
 
 - Cloud backup and synchronization
-- Collaborative trip planning
+- User authentication and personalized profiles
+- Live exchange-rate integration
+- Maps, route planning, and location services
+- Travel recommendations and smarter budget predictions
 - Expanded automated testing
-- Additional travel analytics and planning capabilities
-- Broader device and platform testing
 
 ## Academic Project
 
-TripC is developed as a software engineering project demonstrating the integration of travel planning, itinerary management, expense tracking, and budget analysis in a single application.
+TripC is developed as a software engineering project to demonstrate mobile application development, local data persistence, travel and expense management, budget analysis, and dashboard-based data visualization.
+
+## License
+
+No open-source license has been added yet. All rights remain with the project author unless a license is introduced.
