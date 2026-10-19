@@ -4,35 +4,48 @@ A Flutter-based travel planning application that helps users organize trips, man
 
 ## App Screenshots
 
-### Home Dashboard
-
-![TripC Home Dashboard](screenshots/home.jpg)
-
-### Trip Management
-
-![Trip List](screenshots/trips.jpg)
-
-### Itinerary Planning
-
-![Trip Itinerary](screenshots/itinerary.jpg)
-
-### Expense Management
-
-![Expense Manager](screenshots/expenses.jpg)
-
-### Analytics Dashboard
-
-![Analytics Dashboard](screenshots/analytics.jpg)
-
-![Expense Analytics Breakdown](screenshots/analytics-breakdown.jpg)
-
-### Budget Comparison
-
-![Planned vs Actual Expenses](screenshots/planned-vs-actual.jpg)
-
-### Places and Exploration
-
-![Places and Explore](screenshots/places.jpg)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Home Dashboard</strong><br>
+      <img src="screenshots/home.jpg" width="240" alt="TripC Home Dashboard">
+    </td>
+    <td align="center" width="50%">
+      <strong>Trip Management</strong><br>
+      <img src="screenshots/trips.jpg" width="240" alt="Trip Management">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Itinerary Planning</strong><br>
+      <img src="screenshots/itinerary.jpg" width="240" alt="Itinerary Planning">
+    </td>
+    <td align="center">
+      <strong>Expense Management</strong><br>
+      <img src="screenshots/expenses.jpg" width="240" alt="Expense Manager">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Analytics Dashboard</strong><br>
+      <img src="screenshots/analytics.jpg" width="240" alt="Analytics Dashboard">
+    </td>
+    <td align="center">
+      <strong>Expense Breakdown</strong><br>
+      <img src="screenshots/analytics-breakdown.jpg" width="240" alt="Expense Analytics Breakdown">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Planned vs Actual</strong><br>
+      <img src="screenshots/planned-vs-actual.jpg" width="240" alt="Planned versus Actual Expenses">
+    </td>
+    <td align="center">
+      <strong>Places and Explore</strong><br>
+      <img src="screenshots/places.jpg" width="240" alt="Places and Explore">
+    </td>
+  </tr>
+</table>
 
 ## Features
 
